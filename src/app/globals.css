@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-black: #0D0D0D;
-  --color-brand-dark: #1A1A1A;
-  --color-brand-panel: #222222;
-  --color-brand-card: #2A2A2A;
-  --color-brand-border: #333333;
-  --color-brand-border-light: #444444;
+  --color-brand-black: #132462;
+  --color-brand-dark: #1A2D6E;
+  --color-brand-panel: #20357A;
+  --color-brand-card: #273D84;
+  --color-brand-border: #2E4590;
+  --color-brand-border-light: #3A529E;
   --color-brand-gold: #BF9557;
   --color-brand-gold-light: #D4AA6A;
   --color-brand-gold-dark: #A07A3A;
