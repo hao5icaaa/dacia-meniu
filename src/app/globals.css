@@ -1,36 +1,67 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-black: #103D6F;
-  --color-brand-dark: #0a2a4f;
-  --color-brand-panel: #0d3260;
-  --color-brand-card: #252323;
-  --color-brand-border: #1a4a7a;
-  --color-brand-gold: #C39147;
-  --color-brand-gold-light: #d4a85e;
-  --color-brand-gold-dark: #a07a3a;
-  --color-brand-gold-muted: rgba(195,145,70,0.15);
+  --color-brand-black: #0D0D0D;
+  --color-brand-dark: #1A1A1A;
+  --color-brand-panel: #222222;
+  --color-brand-card: #2A2A2A;
+  --color-brand-border: #333333;
+  --color-brand-border-light: #444444;
+  --color-brand-gold: #BF9557;
+  --color-brand-gold-light: #D4AA6A;
+  --color-brand-gold-dark: #A07A3A;
+  --color-brand-gold-muted: rgba(191, 149, 87, 0.15);
   --color-brand-burgundy: #D50032;
   --color-brand-burgundy-light: #e63360;
-  --color-brand-burgundy-dark: #a80028;
-  --color-brand-burgundy-muted: rgba(213,0,50,0.15);
-  --color-brand-text-primary: #f0ece4;
-  --color-brand-text-secondary: #a0b4c8;
-  --color-brand-text-muted: #607890;
+  --color-brand-burgundy-muted: rgba(213, 0, 50, 0.12);
+  --color-brand-text-primary: #F5F5F5;
+  --color-brand-text-secondary: #CCCCCC;
+  --color-brand-text-muted: #888888;
+  --color-brand-text-dim: #666666;
+  --color-brand-star: #D4AA6A;
+
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   background-color: var(--color-brand-black);
   color: var(--color-brand-text-primary);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Hide scrollbar for allergen filter */
+/* Hide scrollbar for horizontal scrolling */
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 .scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+/* Smooth expand animation */
+.expand-enter {
+  animation: expandIn 0.25s ease-out;
+}
+@keyframes expandIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 600px;
+  }
+}
+
+/* Category nav active indicator */
+.cat-nav-active {
+  color: var(--color-brand-gold);
+  border-bottom-color: var(--color-brand-gold);
 }
