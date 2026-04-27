@@ -137,7 +137,7 @@ function CategoryNav({
     <div className="sticky top-0 z-20 bg-brand-black/40 backdrop-blur-md border-b border-brand-border/30">
       <div
         ref={scrollRef}
-        className="flex overflow-x-auto scrollbar-hide px-4 py-2 gap-1"
+        className="flex overflow-x-auto scrollbar-hide px-4 py-2 gap-1 max-w-lg mx-auto"
       >
         {categories.map((cat) => (
           <button
@@ -643,8 +643,10 @@ export default function MenuClient({
   }, []);
 
   return (
-    <div className="min-h-screen max-w-lg mx-auto">
-      <MenuHeader />
+    <div className="min-h-screen">
+      <div className="max-w-lg mx-auto">
+        <MenuHeader />
+      </div>
 
       {data && filteredCategories.length > 0 && (
         <CategoryNav
@@ -654,7 +656,8 @@ export default function MenuClient({
         />
       )}
 
-      <SearchAndFilter
+      <div className="max-w-lg mx-auto">
+        <SearchAndFilter
         search={search}
         onSearchChange={setSearch}
         excluded={excludedAllergens}
@@ -707,6 +710,7 @@ export default function MenuClient({
           footerNote={data.footer_note}
         />
       )}
+      </div>
     </div>
   );
 }
