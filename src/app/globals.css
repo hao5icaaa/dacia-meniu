@@ -34,26 +34,6 @@ body {
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Luxury leather / textured cardboard effect */
-  background-image:
-    /* Fine grain noise — simulates leather pores */
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E"),
-    /* Subtle diagonal stitch lines — leather seam effect */
-    repeating-linear-gradient(
-      135deg,
-      transparent,
-      transparent 60px,
-      rgba(255, 255, 255, 0.012) 60px,
-      rgba(255, 255, 255, 0.012) 61px
-    ),
-    /* Soft radial vignette — worn leather center glow */
-    radial-gradient(
-      ellipse at 50% 0%,
-      rgba(191, 149, 87, 0.04) 0%,
-      transparent 70%
-    );
-  background-attachment: fixed;
 }
 
 /* Hide scrollbar for horizontal scrolling */
