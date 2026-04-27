@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-brand-black flex flex-col items-center justify-between max-w-lg mx-auto px-6 py-10">
+    <div className="min-h-screen flex flex-col items-center justify-between max-w-lg mx-auto px-6 py-10">
       {/* Header — păstrează identitatea de pe /meniu */}
       <header className="flex flex-col items-center gap-2 pt-8">
         <img

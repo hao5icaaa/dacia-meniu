@@ -19,7 +19,11 @@ export const mancareData: MenuResponse = {
           "description": "Foie gras în crustă aurie cu reducție de cognac",
           "ingredients": "Foie gras, cognac, făină, zahăr, unt, spray cu fulgi de aur",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -31,7 +35,10 @@ export const mancareData: MenuResponse = {
           "description": "Mușchi de vită pe pat de legume trase la tigaie, în aromă de trufe",
           "ingredients": "Mușchi de vită, morcovi, broccoli, sparanghel, țelină, pastă de trufe, lapte, unt",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Țelină"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -43,7 +50,10 @@ export const mancareData: MenuResponse = {
           "description": "Doradă în crustă de sare cu aromă de lămâie",
           "ingredients": "Doradă, ouă, ulei, lămâie, sare",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă",
+            "Pește"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -55,7 +65,11 @@ export const mancareData: MenuResponse = {
           "description": "Spirală umplută cu cremă de brânză și fructe",
           "ingredients": "Brânză proaspătă, căpșuni, afine, stafide, smântână de gătit, făină, gălbenuș de ou, unt, sfeclă roșie, suc de lămâie",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -67,7 +81,11 @@ export const mancareData: MenuResponse = {
           "description": "Prăjitură cu tente exotice — cacao, miere și portocale",
           "ingredients": "Prăjitură cu Arpacaș, ou, făină, cacao, miere, suc de portocale, mentă, mascarpone, suc de lime",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -86,7 +104,9 @@ export const mancareData: MenuResponse = {
           "description": "Trei interpretări ale vinetei — clasică, afumată și cu roșii coapte",
           "ingredients": "Vinete, ceapă, ulei de măsline, ou, ulei",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -98,7 +118,9 @@ export const mancareData: MenuResponse = {
           "description": "Tortilla crocantă cu pitușcă afumată și microplante",
           "ingredients": "Făină, avocado, oțet, pitușcă, ceapă roșie, microplante, zahăr, ulei de masline",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -110,7 +132,10 @@ export const mancareData: MenuResponse = {
           "description": "Babic maturat, ciuperci de pădure și smântână",
           "ingredients": "Sos de roșii, mozzarella, ciuperci, babic de Buzău, smântână",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -122,7 +147,10 @@ export const mancareData: MenuResponse = {
           "description": "Burger de pitușcă cu cartofi prăjiți — semnătura casei",
           "ingredients": "Chiflă cu unt, roșii, salată, bacon, castravete murat, ceapă, sos cheddar, sos burger, cartofi prăjiți cu usturoi și mentă, pitușcă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -134,7 +162,10 @@ export const mancareData: MenuResponse = {
           "description": "Platou de brânzeturi tradiționale din Ținutul Buzăului",
           "ingredients": "Brânză de burduf, cașcaval, cașcaval afumat, mere, telemea vacă, telemea oaie, struguri, miez de nucă, dulceață de ardei iute, brânză Horezu, cașcaval Ibănești",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -146,7 +177,10 @@ export const mancareData: MenuResponse = {
           "description": "Pârjoale cu pitușcă și creveți pe pat de cartofi dulci",
           "ingredients": "Creveți, cașcaval afumat, cartofi dulci, smântână, ou, babic, pitușcă, mentă, ulei de măsline",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -158,7 +192,10 @@ export const mancareData: MenuResponse = {
           "description": "Risotto cu cârnați de Pleșcoi și petale de roșii uscate",
           "ingredients": "Orez, ceapă albă, roșii uscate, vin, parmezan, cârnați de Pleșcoi, smântână de gătit, unt",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -170,7 +207,11 @@ export const mancareData: MenuResponse = {
           "description": "Tagliatelle meșteșugite cu babic, trufe și brânză Horezu",
           "ingredients": "Tagliatelle, smântână de gătit, trufe, gălbenuș de ou, brânză Horezu, babic, pitușcă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -182,7 +223,10 @@ export const mancareData: MenuResponse = {
           "description": "Unt proaspăt cu ierburi aromate și babic de Buzău, servit cu pâine cu",
           "ingredients": "maia Pâine cu maia, unt, babic de Buzău, microgreens, pătrunjel, mărar, piper roșu, sare, praf de aur",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -213,7 +257,9 @@ export const mancareData: MenuResponse = {
           "description": "Trei interpretări ale vinetei — clasică, afumată și cu roșii coapte",
           "ingredients": "Vinete, ceapă, ulei de măsline, ou, ulei",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -237,7 +283,10 @@ export const mancareData: MenuResponse = {
           "description": "Textura mătăsoasă a pateului, echilibrată de dulceața picantă",
           "ingredients": "Ficat de pui, unt, ceapă, coniac, dulceață de ardei, vin alb, parmezan",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -249,7 +298,9 @@ export const mancareData: MenuResponse = {
           "description": "Tartinabilă, cu aromă intensă de babic maturat",
           "ingredients": "Brânză proaspătă, smântână, babic de Buzău,",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -261,7 +312,10 @@ export const mancareData: MenuResponse = {
           "description": "Ton, ceapă roșie, măsline, lămâie, ou, ulei",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă",
+            "Pește"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -273,7 +327,9 @@ export const mancareData: MenuResponse = {
           "description": "Tortilla crocantă cu pitușcă afumată și microplante",
           "ingredients": "Făină, avocado, oțet, pitușcă, ceapă roșie, microplante, zahăr",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -285,7 +341,12 @@ export const mancareData: MenuResponse = {
           "description": "Pitușcă în crustă aurie, servită cu sos de muștar aromat",
           "ingredients": "Pitușcă, foi de plăcintă, hrean, ou, unt usturoi, cimbru, muștar, smantana, roșii cherry, rucola",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Muștar",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -309,7 +370,11 @@ export const mancareData: MenuResponse = {
           "description": "Melci în unt aromat cu usturoi și ierburi proaspete",
           "ingredients": "Melci, unt, usturoi, pătrunjel, sare, paine cu maia",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Moluște"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -321,7 +386,9 @@ export const mancareData: MenuResponse = {
           "description": "",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Moluște"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -333,7 +400,10 @@ export const mancareData: MenuResponse = {
           "description": "Vită Black Angus tăiată la cuțit, cu gălbenuș și condimente clasice",
           "ingredients": "Mușchi vită Black Angus, gălbenuș, muștar, capere, ceapă, cornișoni, Tabasco",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Muștar",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -345,7 +415,11 @@ export const mancareData: MenuResponse = {
           "description": "Mălai, brânză de burduf, telemea de vacă, smântână, ouă, babic, ulei",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -357,7 +431,9 @@ export const mancareData: MenuResponse = {
           "description": "Foie gras pe pat de sfecla rosie aromatizata cu ulei de măsline, sare",
           "ingredients": "marină si semințe de pin coapte Foie gras, sfecla rosie, semințe de pin, ulei de măsline",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -376,7 +452,10 @@ export const mancareData: MenuResponse = {
           "description": "Buzău",
           "ingredients": "Cremoasă, aromată, cu crutoane de casă Țelină, morcov, păstârnac, ceapă, crutoane, cartofi dulci",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Țelină"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -388,7 +467,10 @@ export const mancareData: MenuResponse = {
           "description": "Ciorbă tradițională cu gust intens de pitușcă și babic maturat",
           "ingredients": "Ardei gras, morcov, orez, păstârnac, țelină, ouă, babic, pitușcă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă",
+            "Țelină"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -419,7 +501,9 @@ export const mancareData: MenuResponse = {
           "description": "Clasicul reinventat cu iceberg crocant și piept de curcan",
           "ingredients": "Salată iceberg, piept curcan, tăieței chinezești, sos Caesar, ou de prepeliță, bacon",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -431,7 +515,10 @@ export const mancareData: MenuResponse = {
           "description": "Legume proaspete cu telemea de Sibiu și pâine cu maia",
           "ingredients": "Roșii, castraveți, ardei gras verde, ceapă roșie, măsline kalamata, telemea de Sibiu, oregano, ulei de măsline, crutoane din pâine cu maia",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -443,7 +530,10 @@ export const mancareData: MenuResponse = {
           "description": "Legume coapte la cuptor cu brânză Penteleu și rucolă",
           "ingredients": "Dovlecel, țelină, sfeclă roșie, ceapă roșie, semințe de dovleac, brânză Penteleu afumată, babic, rucolă, morcov, mere, ulei de măsline",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Țelină"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -455,7 +545,9 @@ export const mancareData: MenuResponse = {
           "description": "Caracatiță fragedă pe pat de verdeață, cu babic crocant",
           "ingredients": "Salată iceberg, caracatiță, babic de Buzău, ulei de măsline, sare Topping Piept de curcan 120 g 16 Ron Creveți 80 g 24 Ron",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Moluște"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -474,7 +566,10 @@ export const mancareData: MenuResponse = {
           "description": "Risotto cremos cu mix de ciuperci sălbatice",
           "ingredients": "Orez, parmezan, mix de ciuperci, unt, sare",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -486,7 +581,10 @@ export const mancareData: MenuResponse = {
           "description": "Un omagiu adus brânzeturilor din Ținutul Buzăului",
           "ingredients": "Penne, smântână, brânză Horezu, telemea de vacă, brânză de burduf, brânză Penteleu",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -498,7 +596,11 @@ export const mancareData: MenuResponse = {
           "description": "Risotto cu cârnați de Pleșcoi și petale de roșii uscate",
           "ingredients": "Orez, ceapă albă, roșii uscate, vin, parmezan, cârnați de Pleșcoi, smântână de gătit, unt",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -510,7 +612,11 @@ export const mancareData: MenuResponse = {
           "description": "Tagliatelle meșteșugite cu babic, trufe și brânză Horezu",
           "ingredients": "Tagliatelle, smântână de gătit, trufe, gălbenuș de ou, brânză Horezu, babic, pitușcă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -522,7 +628,10 @@ export const mancareData: MenuResponse = {
           "description": "Paccheri cu ragu de pitușcă și roșii decojite, finisate cu parmezan",
           "ingredients": "Paccheri, pitușcă, ceapă, morcovi, ulei de măsline, parmezan, roșii decojite",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -541,7 +650,9 @@ export const mancareData: MenuResponse = {
           "description": "Ulei de măsline, rozmarin, usturoi, mix făină bio",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -553,7 +664,10 @@ export const mancareData: MenuResponse = {
           "description": "Parmezan, mix făină bio",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -565,7 +679,10 @@ export const mancareData: MenuResponse = {
           "description": "Legume de grădină pe blat crocant cu cașcaval vegetal",
           "ingredients": "Sos de roșii, cașcaval vegetal, dovlecel, pleurotus",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -577,7 +694,10 @@ export const mancareData: MenuResponse = {
           "description": "Babic maturat, ciuperci de pădure și smântână",
           "ingredients": "Sos de roșii, mozzarella, ciuperci, babic de Buzău, smântână",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -589,7 +709,10 @@ export const mancareData: MenuResponse = {
           "description": "Cârnați de Pleșcoi, roșii uscate și parmezan",
           "ingredients": "Sos de roșii, mozzarella, cârnați de Pleșcoi, roșii uscate, parmezan",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -601,7 +724,10 @@ export const mancareData: MenuResponse = {
           "description": "Mozzarella, telemea, burduf și brânză Horezu",
           "ingredients": "Mozzarella, telemea de vacă, brânză de burduf, brânză Horezu",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -613,7 +739,11 @@ export const mancareData: MenuResponse = {
           "description": "Gălbenuș, trufe, pitușcă și babic pe pat de smântână și Horezu",
           "ingredients": "Gălbenuș de ou, smântână, brânză Horezu, pitușcă, babic de Buzău, trufe Topping Mozarella 50 g 9 Ron Babic 50 g 22 Ron Parmezan 50 g 11 Ron",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -632,7 +762,11 @@ export const mancareData: MenuResponse = {
           "description": "ceapă de Buzău și rozmarin",
           "ingredients": "File de doradă pe pat de cartofi rustici cu ceapă de Buzău, într-un sos beurre blanc cu șofran File de doradă, unt, ceapă gălbenă, vin alb, șofran, cartofi, ceapă roșie, rozmarin, ulei de floarea soarelui, roșii cherry, usturoi",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Pește",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -644,7 +778,10 @@ export const mancareData: MenuResponse = {
           "description": "File de ton seared pe pat de orez negru, cu sos verde și chips de babic",
           "ingredients": "Ton, orez negru, ceapă, morcov, sos verde, ulei, babic",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Pește"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -656,7 +793,10 @@ export const mancareData: MenuResponse = {
           "description": "Creveți Black Tiger în sos cremos de turmeric cu usturoi și lămâie",
           "ingredients": "Creveți Black Tiger, vin, unt, smântână de gătit, turmeric, usturoi, lămâie, sare, turtă, ardei iute, mac, ulei de măsline",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -668,7 +808,11 @@ export const mancareData: MenuResponse = {
           "description": "Tentacul de caracatiță pe pat de linte cu babic de Buzău și coniac",
           "ingredients": "Tentacul de caracatiță, linte, babic, smântână lichidă, unt, ceapă roșie, usturoi, coniac",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Moluște",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -680,7 +824,9 @@ export const mancareData: MenuResponse = {
           "description": "Coadă de homar pe piure de rădăcinoase cu sos pesto",
           "ingredients": "Homar, piure de rădăcinoase, sos pesto, ulei de măsline",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Crustacee"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -699,7 +845,10 @@ export const mancareData: MenuResponse = {
           "description": "Vrăbioara de vită în crustă crocantă, cu salată proaspătă",
           "ingredients": "Vrăbioara de vită, ouă, făină, pesmet, fulgi de porumb, roșii, castravete, ceapă roșie, ulei de măsline, sare",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -711,7 +860,11 @@ export const mancareData: MenuResponse = {
           "description": "Black Angus, bacon, sos cheddar și cartofi cu usturoi",
           "ingredients": "Chiflă cu unt, carne vită Black Angus, salată, muștar, sos burger, bacon, roșii, castravete murat, sos cheddar, cartofi prăjiți cu usturoi și mentă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Muștar"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -723,7 +876,10 @@ export const mancareData: MenuResponse = {
           "description": "Oase de vită coapte cu măduvă cremoasă, servite cu pâine cu maia și",
           "ingredients": "hrean Oase de vită, pâine cu maia, usturoi, ceapă roșie, roșii, ulei de măsline, sare, piper, hrean, smântână de gătit",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -735,7 +891,10 @@ export const mancareData: MenuResponse = {
           "description": "Gătită lent, cu legume de rădăcină și sos aromat",
           "ingredients": "Limbă de vită, ceapă, morcov, țelină, păstârnac, roșii, ardei gras, usturoi, foi de dafin, cimbru, boia dulce, vin roșu",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți",
+            "Țelină"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -759,7 +918,9 @@ export const mancareData: MenuResponse = {
           "description": "Mușchiuleț fraged, cu sparanghel și sos de piper verde",
           "ingredients": "Mușchiuleț de vită, unt, ulei de măsline, rozmarin, cimbru, sparanghel, sos brun",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -771,7 +932,9 @@ export const mancareData: MenuResponse = {
           "description": "Marmorarea perfectă — antricot maturat la perfecțiune",
           "ingredients": "Antricot Black Angus, unt, roșii cherry, usturoi. brocoli",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -790,7 +953,10 @@ export const mancareData: MenuResponse = {
           "description": "Glazurate cu miere și sos de soia, condimentate cu rozmarin și ardei",
           "ingredients": "iute Coaste de porc, rozmarin, cimbrișor, ardei iute, susan, sos de soia, miere de albine",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Soia",
+            "Susan"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -802,7 +968,12 @@ export const mancareData: MenuResponse = {
           "description": "babic",
           "ingredients": "Tigaie tradițională cu cârnați, carne de porc și bulz pe pat de mămăligă Cârnați de pitușcă, carne de porc, kaiser condimentat, mălai, brânză de burduf, oțet, vin alb, ceapă, sos roșii, babic, sare, piper, foi de dafin",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Soia",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -814,7 +985,10 @@ export const mancareData: MenuResponse = {
           "description": "Cotlet de porc cu os, glazurat cu boia și sriracha, servit cu cartofi și",
           "ingredients": "parmezan Cotlet de porc cu slănină, cartofi, cașcaval afumat, parmezan, ceapă roșie, făină, roșii, usturoi, ulei de măsline, sos sriracha, unt, boia, sare, microplante",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -857,7 +1031,9 @@ export const mancareData: MenuResponse = {
           "description": "Piept de pui cu piele crocantă pe pat de piure de spanac",
           "ingredients": "Piept de pui cu piele, piure de spanac, ceapă roșie, amidon, unt, usturoi",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -869,7 +1045,11 @@ export const mancareData: MenuResponse = {
           "description": "Tocană de iepure cu măsline kalamata, gătită lent în vin alb, servită în",
           "ingredients": "crustă de foietaj Pulpă de iepure, măsline kalamata, ceapă, roșii, sos de roșii, ulei, vin alb, sare, piper, foi de dafin, aluat foietaj, ouă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Ouă",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -888,7 +1068,9 @@ export const mancareData: MenuResponse = {
           "description": "Servită pe cuib de mămăligă cu murături de casă și brânză de burduf",
           "ingredients": "Pastramă, cuib de mămăligă, murături de casă, brânză de burduf",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -912,7 +1094,9 @@ export const mancareData: MenuResponse = {
           "description": "Lamb rack pe pat de piure de mazăre cu broccoli și mentă",
           "ingredients": "Lamb rack, mazăre, broccoli, mentă, sos brun, sos BBQ, ulei, usturoi, unt smanta de gatit",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -931,7 +1115,10 @@ export const mancareData: MenuResponse = {
           "description": "Platou de brânzeturi tradiționale din Ținutul Buzăului",
           "ingredients": "Brânză de burduf, cașcaval, cașcaval afumat, mere, telemea vacă, telemea oaie, struguri, miez de nucă, dulceață de ardei iute, brânză Horezu, cascaval ibanesti",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -955,7 +1142,11 @@ export const mancareData: MenuResponse = {
           "description": "Selecție generoasă de mezeluri și specialități din carmangeria proprie,",
           "ingredients": "pentru 4-6 persoane Cârnați de porc proaspeți, pitușcă, cârnați de pitușcă, coaste de porc, șuncă fiartă, pastramă de oaie, cârnați de Pleșcoi, cocoșel de munte, bulz, murături asortate, brânză de burduf, dulceață de ardei, smântână, muștar, hrean, sriracha, cartofi prăjiți, telemea de oaie",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Muștar"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -967,7 +1158,11 @@ export const mancareData: MenuResponse = {
           "description": "Fructe de mare — creveți, calamar, lup de mare și scoici",
           "ingredients": "Creveți, tentacule de caracatita, tub de calamar, file de lup de mare, scoici în cochilie, usturoi, roșii cherry, coada de homar.",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Crustacee",
+            "Moluște",
+            "Pește"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -998,7 +1193,9 @@ export const mancareData: MenuResponse = {
           "description": "Trei interpretări ale vinetei",
           "ingredients": "Vinete, ceapă, ulei de măsline, usturoi, ou, ulei",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1010,7 +1207,10 @@ export const mancareData: MenuResponse = {
           "description": "Cremoasă, cu țelină, păstârnac și un strop de sos de roșii",
           "ingredients": "Țelină, morcov, păstârnac, ceapă, smântâna de gătit",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Țelină"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1034,7 +1234,10 @@ export const mancareData: MenuResponse = {
           "description": "Conopidă și broccoli caramelizate la grill, pe pat de piure de conopidă",
           "ingredients": "cu susan Conopidă, broccoli, pastă de susan, unt, smântână de gătit, ulei de măsline, roșii cherry, pesto, microplante",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Susan"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1058,7 +1261,10 @@ export const mancareData: MenuResponse = {
           "description": "Dovlecei, ciuperci și măsline pe blat bio",
           "ingredients": "Cașcaval vegetal de post, roșii decojite, vinete, dovlecei, ciuperci, usturoi, măsline negre, oregano, mix făină bio",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1082,7 +1288,9 @@ export const mancareData: MenuResponse = {
           "description": "Risotto cremos cu mix de ciuperci sălbatice",
           "ingredients": "Orez, parmezan, mix de ciuperci, unt, sare",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1094,7 +1302,11 @@ export const mancareData: MenuResponse = {
           "description": "Conopidă caramelizată la grill",
           "ingredients": "Conopidă, mazăre, șnițel soia, pleurotus, pesmet, smântână lichidă, usturoi",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Soia"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1106,7 +1318,9 @@ export const mancareData: MenuResponse = {
           "description": "Broccoli, unt, usturoi, sare, piper",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1118,7 +1332,9 @@ export const mancareData: MenuResponse = {
           "description": "Supă cremă de ciuperci cu aromă de trufe și crutoane crocante",
           "ingredients": "Sos de ciuperci, ulei de trufe, crutoane, sare",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1161,7 +1377,9 @@ export const mancareData: MenuResponse = {
           "description": "Cartofi, sos cheddar",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1185,7 +1403,9 @@ export const mancareData: MenuResponse = {
           "description": "Cartofi, unt, lapte, ulei de trufe",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1197,7 +1417,9 @@ export const mancareData: MenuResponse = {
           "description": "Broccoli, unt, usturoi, sare, piper",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1209,7 +1431,9 @@ export const mancareData: MenuResponse = {
           "description": "Cartofi, lapte, unt, brânză Horezu",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1221,7 +1445,9 @@ export const mancareData: MenuResponse = {
           "description": "Sparanghel, unt, sare, piper",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1233,7 +1459,10 @@ export const mancareData: MenuResponse = {
           "description": "Dovlecei în crustă crocantă de pesmet panko",
           "ingredients": "Dovlecei, ou, pesmet panko, făină, sare",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1252,7 +1481,10 @@ export const mancareData: MenuResponse = {
           "description": "Pizza simplă cu mozzarella și sos roșu",
           "ingredients": "Mozzarella, sos roșu, mix făină bio",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1264,7 +1496,10 @@ export const mancareData: MenuResponse = {
           "description": "Penne, sos roșu, parmezan",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1276,7 +1511,9 @@ export const mancareData: MenuResponse = {
           "description": "Burger ușor cu piept de curcan și cartofi",
           "ingredients": "Salată, piept de curcan, castravete, ketchup, cartofi, chiflă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1288,7 +1525,10 @@ export const mancareData: MenuResponse = {
           "description": "Curcan crocant cu cartofi și salată proaspătă",
           "ingredients": "Piept de curcan, ou, pesmet, cartofi, mix salată",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1307,7 +1547,10 @@ export const mancareData: MenuResponse = {
           "description": "Alegerea ta: caramel, cătină, fistic, iaurt, mango sau vanilie Bourbon",
           "ingredients": "Caramel unt sărat, cătină, ciocolată neagră cu lapte, fistic Iranian, iaurt, mango, zmeură, vanilie Bourbon",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1319,7 +1562,10 @@ export const mancareData: MenuResponse = {
           "description": "Cremă fină cu vanilie și crustă caramelizată de portocală",
           "ingredients": "Lapte, ouă, zahăr, smântână, vanilie, pudră de cafea",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1331,7 +1577,9 @@ export const mancareData: MenuResponse = {
           "description": "Tăieței dulci cu înghețată și sosuri artizanale",
           "ingredients": "Sos ciocolată, sos vanilie, sos caramel sărat, clătite, înghețată",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1343,7 +1591,11 @@ export const mancareData: MenuResponse = {
           "description": "Blat de nucă cu cremă fină de vanilie",
           "ingredients": "Blat de nucă și cremă de vanilie",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă",
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1355,7 +1607,10 @@ export const mancareData: MenuResponse = {
           "description": "Frișcă naturală cu ciocolată albă, cocos și afine",
           "ingredients": "Mousse inimă, ganaj roșu, blat inima reginei, bănuț Dacia, pudră aur, sos vanilie, lămâie",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1367,7 +1622,9 @@ export const mancareData: MenuResponse = {
           "description": "Orez cu lapte cremos, cu frișcă, caramel sărat și pufărini crocanți",
           "ingredients": "Lapte, orez, zahăr, frișcă, caramel sărat, pufărini expandați, bănuț Dacia",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1379,7 +1636,10 @@ export const mancareData: MenuResponse = {
           "description": "Cremă clasică de zahăr ars cu esență de vanilie și aromă de portocală",
           "ingredients": "Lapte, ouă, zahăr, esență de vanilie, sare, coji de portocală, bănuț logo Dacia",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }

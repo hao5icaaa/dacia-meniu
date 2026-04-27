@@ -643,7 +643,7 @@ export default function MenuClient({
   }, []);
 
   return (
-    <div className="min-h-screen bg-brand-black max-w-lg mx-auto">
+    <div className="min-h-screen max-w-lg mx-auto">
       <MenuHeader />
 
       {data && filteredCategories.length > 0 && (

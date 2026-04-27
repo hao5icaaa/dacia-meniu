@@ -67,7 +67,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "cafea, lapte sau lapte vegetal la alegere",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -79,7 +81,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "cafea, lapte sau lapte vegetal la alegere",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -91,7 +95,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "cafea, lapte sau lapte vegetal la alegere",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -103,7 +109,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "cafea, lapte sau lapte vegetal la alegere",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -115,7 +123,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "ceai verde japonez matcha , lapte sau lapte vegetal la alegere",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -127,7 +137,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "cafea, irish whisky, lapte sau lapte vegetal la alegere",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -163,7 +175,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "ciocolată caldă, lapte sau lapte vegetal la alegere",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -194,7 +208,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "ness, înghețată vanilie, lapte sau lapte vegetal la alegere, frișcă, topping ciocolată",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -206,7 +222,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "ness, lapte sau lapte vegetal la alegere, frișcă, topping ciocolată",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -249,7 +267,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "green smoothie, spanac, moringa, urzică, orz verde, mere dulci, kiwi",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -383,7 +403,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "măr, țelină apio, castravete, pătrunjel",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Țelină"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -426,7 +448,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "Afinată, Schweppes, afine, lime",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -462,7 +486,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "Afinată, spumant",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -529,7 +555,9 @@ export const bauturiData: MenuResponse = {
           "description": "Angostura, fresh lămâie, sirop zahăr, albuș de ou)",
           "ingredients": "Paragon Cordial Timur Berry, Tanqueray 10, lichior piersică, vodka Absolut ,",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -553,7 +581,9 @@ export const bauturiData: MenuResponse = {
           "description": "fresh grapefruit, albuș de ou)",
           "ingredients": "Paragon Cordial Rue Berry, sirop de portocală, Bacardi Carta Blanca,",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -584,7 +614,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "Măgura Zamfirei Moonlight, Schweppes, rozmarin, afine",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -596,7 +628,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "Tanqueray, Schweppes, castravete, piper roșu",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -668,7 +702,10 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "Amaretto Disaronno, Bulleit Bourbon, sirop zahăr, fresh lămâie, albuș de ou",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă",
+            "Ouă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -680,7 +717,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "aperol, prosecco, portocală, apă carbogazoasă",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -692,7 +731,9 @@ export const bauturiData: MenuResponse = {
           "description": "mentă, lime)",
           "ingredients": "prosecco, sirop artizanal de soc Sweet Mountain, apă carbogazoasă,",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -742,7 +783,9 @@ export const bauturiData: MenuResponse = {
           "description": "Țuică fiartă Decebal",
           "ingredients": "țuică de prune, piper roșu, zahăr Dracula Hot Voice Vin Merlot, anason, scorțișoară, măr deshidratat",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1230,7 +1273,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1266,7 +1311,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1395,7 +1442,9 @@ export const bauturiData: MenuResponse = {
           "description": "Dealu Mare, vol. 14.2%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1407,7 +1456,9 @@ export const bauturiData: MenuResponse = {
           "description": "Dealu Mare, vol. 13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1419,7 +1470,10 @@ export const bauturiData: MenuResponse = {
           "description": "Chardonnay, Sauvignon Blanc, Riesling, Pinot Gris, Dealu Mare, vol. 14,2%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1431,7 +1485,9 @@ export const bauturiData: MenuResponse = {
           "description": "Muscat Ottonel & Chardonnay, Dealu Mare, vol. 12%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1443,7 +1499,9 @@ export const bauturiData: MenuResponse = {
           "description": "Vin Dobrogean, vol. 13,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1455,7 +1513,9 @@ export const bauturiData: MenuResponse = {
           "description": "Fetească Albă, Fetească Regală, Tămâioasă Românească, Dealu Mare, vol. 13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1467,7 +1527,9 @@ export const bauturiData: MenuResponse = {
           "description": "Dealu Mare, vol. 13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1479,7 +1541,9 @@ export const bauturiData: MenuResponse = {
           "description": "Chardonnay, Murfatlar vol.13,2%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1491,7 +1555,10 @@ export const bauturiData: MenuResponse = {
           "description": "Sauvignon Blanc, Muscat Ottonel, Pinot Gris, Traminer, Dobrogea vol.12,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Gluten",
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1503,7 +1570,9 @@ export const bauturiData: MenuResponse = {
           "description": "Chardonnay, Banat, vol.13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1515,7 +1584,9 @@ export const bauturiData: MenuResponse = {
           "description": "Chardonnay, Fetească Regală, Muscat Ottonel, Viognier, Cadarca, Banat, vol.13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1527,7 +1598,9 @@ export const bauturiData: MenuResponse = {
           "description": "Tămâioasă Românească, Dealu Mare, vol. 12,9%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1539,7 +1612,9 @@ export const bauturiData: MenuResponse = {
           "description": "Crama Budureasca, Tămâioasă Românească, Dealu Mare, vol.13,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1551,7 +1626,9 @@ export const bauturiData: MenuResponse = {
           "description": "Chardonnay, Pinot Grigio, Pinot Blanc, Moldova, vol.13,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1570,7 +1647,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pecorino, Italia, vol.13,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1582,7 +1661,9 @@ export const bauturiData: MenuResponse = {
           "description": "Turbiana, Lugana, Italia, vol.13,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1594,7 +1675,9 @@ export const bauturiData: MenuResponse = {
           "description": "Chardonnay, Burgundia, Franța, vol.12,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1613,7 +1696,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Dealu Mare, vol. 14,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1625,7 +1710,9 @@ export const bauturiData: MenuResponse = {
           "description": "Dealu Mare, vol. 14%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1637,7 +1724,9 @@ export const bauturiData: MenuResponse = {
           "description": "Băbească Neagră, Fetească Neagră, Dobrogea, vol.13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1649,7 +1738,9 @@ export const bauturiData: MenuResponse = {
           "description": "Fetească Neagră, Pinot Noir, Banat, vol.11,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1668,7 +1759,9 @@ export const bauturiData: MenuResponse = {
           "description": "Cisnault, Grenache, Shyraz, Rolle, Provance, vol.13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1680,7 +1773,9 @@ export const bauturiData: MenuResponse = {
           "description": "Merlot, Italia, vol.13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1699,7 +1794,9 @@ export const bauturiData: MenuResponse = {
           "description": "",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1711,7 +1808,9 @@ export const bauturiData: MenuResponse = {
           "description": "Cabernet Sauvignon, Merlot, Shyraz, Fetească Neagră, Dealu Mare, vol.14,4%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1723,7 +1822,9 @@ export const bauturiData: MenuResponse = {
           "description": "Rară Neagră, Moldova, vol.13,5",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1735,7 +1836,9 @@ export const bauturiData: MenuResponse = {
           "description": "Cabernet Sauvignon, Moldova, vol.12.5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1747,7 +1850,9 @@ export const bauturiData: MenuResponse = {
           "description": "Fetească Neagră, Dobrogea, vol.14,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1759,7 +1864,9 @@ export const bauturiData: MenuResponse = {
           "description": "Fetească Neagră, Dealu Mare, vol.14%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1771,7 +1878,9 @@ export const bauturiData: MenuResponse = {
           "description": "Shiraz, Cabernet Sauvignon, Merlot, Pinot Noir,",
           "ingredients": "Dealu Mare, vol. 14,5%",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1783,7 +1892,9 @@ export const bauturiData: MenuResponse = {
           "description": "Cabernet Sauvignon, Merlot, Banat, vol.13%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1795,7 +1906,9 @@ export const bauturiData: MenuResponse = {
           "description": "Fetească Neagră, Dealu Mare,vol.14,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1807,7 +1920,9 @@ export const bauturiData: MenuResponse = {
           "description": "Fetească Neagră, Dealu Mare, vol 14%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1819,7 +1934,9 @@ export const bauturiData: MenuResponse = {
           "description": "Dealu Mare, vol 14,9%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1838,7 +1955,9 @@ export const bauturiData: MenuResponse = {
           "description": "Italia, vol. 14,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1850,7 +1969,9 @@ export const bauturiData: MenuResponse = {
           "description": "Toscana, Italia, vol.14%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1862,7 +1983,9 @@ export const bauturiData: MenuResponse = {
           "description": "Toscana, Italia, vol.13,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1874,7 +1997,9 @@ export const bauturiData: MenuResponse = {
           "description": "Grenache, Mourvedre, Syraz, Cinsault, Ron, Franța, vol.14,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1967,7 +2092,9 @@ export const bauturiData: MenuResponse = {
           "description": "Glera, Veneto, Italia, vol.11%, spumant",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -1979,7 +2106,9 @@ export const bauturiData: MenuResponse = {
           "description": "Glera, Veneto, Italia, vol.11,5%, spumant",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -1998,7 +2127,9 @@ export const bauturiData: MenuResponse = {
           "description": "Chardonnay, Dealurile Crișanei, vol.12%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2010,7 +2141,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Dealurile Crișanei, vol.12%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2022,7 +2155,9 @@ export const bauturiData: MenuResponse = {
           "description": "Glera, Veneto, Italia, vol.11,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2034,7 +2169,9 @@ export const bauturiData: MenuResponse = {
           "description": "Glera, Veneto, Italia, vol.11,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2046,7 +2183,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Pinot Meunier, Chardonnay, Champagne,Franța vol.12%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2058,7 +2197,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Pinot Meunier, Chardonnay, Champagne, Franța, vol.12%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2070,7 +2211,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Pinot Meunier, Chardonnay, Champagne, Franța, vol.12%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2082,7 +2225,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Pinot Meunier, Chardonnay, Champagne, Franța, vol.12%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2094,7 +2239,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Pinot Meunier, Chardonnay, Champagne, Franța, vol.12,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         },
@@ -2106,7 +2253,9 @@ export const bauturiData: MenuResponse = {
           "description": "Pinot Noir, Chardonnay, Champagne, Franța, vol.12,5%",
           "ingredients": "",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Sulfiți"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
@@ -2192,7 +2341,10 @@ export const bauturiData: MenuResponse = {
           "description": "Lapte de Cocos bio ( gata de băut)",
           "ingredients": "Apă din nucă de Cocos 100% bio",
           "nutrition": null,
-          "allergens": [],
+          "allergens": [
+            "Fructe cu coajă",
+            "Lapte"
+          ],
           "nutrition_label": "per_100g",
           "nutrition_completeness": 0
         }
