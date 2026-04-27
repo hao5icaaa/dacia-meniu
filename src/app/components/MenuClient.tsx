@@ -134,7 +134,7 @@ function CategoryNav({
   }, [activeId]);
 
   return (
-    <div className="sticky top-0 z-20 bg-brand-black/95 backdrop-blur-sm border-b border-brand-border/50">
+    <div className="sticky top-0 z-20 bg-brand-black/40 backdrop-blur-md border-b border-brand-border/30">
       <div
         ref={scrollRef}
         className="flex overflow-x-auto scrollbar-hide px-4 py-2 gap-1"
