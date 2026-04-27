@@ -3,7 +3,7 @@
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 
 // ── Types ──────────────────────────────────────────────────────
-interface MenuNutrition {
+export interface MenuNutrition {
   energy_kj: number;
   energy_kcal: number;
   fat_g: number;
@@ -15,7 +15,7 @@ interface MenuNutrition {
   fiber_g: number;
 }
 
-interface MenuItem {
+export interface MenuItem {
   name: string;
   house_creation: boolean;
   price: number | null;
@@ -28,20 +28,20 @@ interface MenuItem {
   nutrition_completeness: number;
 }
 
-interface MenuCategory {
+export interface MenuCategory {
   id: string;
   name: string;
   subtitle: string | null;
   items: MenuItem[];
 }
 
-interface ToppingItem {
+export interface ToppingItem {
   name: string;
   portion: string;
   price: number;
 }
 
-interface MenuResponse {
+export interface MenuResponse {
   restaurant: string;
   categories: MenuCategory[];
   toppings: Record<string, ToppingItem[]>;
