@@ -1,6 +1,9 @@
 "use client";
 
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
+import { useLocale } from "../../contexts/LocaleContext";
+import { tx, txCategory, txAllergen } from "../../lib/dictionary";
+import LanguageSwitcher from "../../components/LanguageSwitcher";
 
 // ── Types ──────────────────────────────────────────────────────
 export interface MenuNutrition {
@@ -26,6 +29,10 @@ export interface MenuItem {
   allergens: string[];
   nutrition_label: string;
   nutrition_completeness: number;
+  // Optional per-locale translations (filled by translate_items.py).
+  // Locale codes: en, es, ru, ar, it, fr (RO is the source).
+  description_tx?: Record<string, string>;
+  ingredients_tx?: Record<string, string>;
 }
 
 export interface MenuCategory {
@@ -94,9 +101,13 @@ function formatPrice(price: number | null): string {
 // ── Sub-components ─────────────────────────────────────────────
 
 function MenuHeader() {
+  const { locale } = useLocale();
   return (
-    <header className="flex flex-col items-center gap-1 pt-8 pb-4 px-4">
-      <img src="/logo.svg" alt="Dacia Romanian Dining" className="h-16 w-16 mb-2" />
+    <header className="relative flex flex-col items-center gap-1 pt-4 pb-4 px-4">
+      <div className="absolute top-3 right-3">
+        <LanguageSwitcher />
+      </div>
+      <img src="/logo.svg" alt="Dacia Romanian Dining" className="h-16 w-16 mb-2 mt-4" />
       <h1
         className="text-2xl font-bold text-brand-gold text-center"
         style={{ fontFamily: "var(--font-heading)" }}
@@ -107,7 +118,7 @@ function MenuHeader() {
         className="text-sm text-brand-text-muted text-center italic"
         style={{ fontFamily: "var(--font-heading)" }}
       >
-        Gourmet experience &amp; Life Style
+        {tx("tagline", locale)}
       </p>
       <div className="w-16 h-px bg-brand-gold/40 mt-3" />
     </header>
@@ -123,6 +134,7 @@ function CategoryNav({
   activeId: string | null;
   onSelect: (id: string) => void;
 }) {
+  const { locale } = useLocale();
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -150,7 +162,7 @@ function CategoryNav({
                 : "text-brand-text-muted hover:text-brand-text-secondary border border-transparent"
             }`}
           >
-            {cat.name}
+            {txCategory(cat.name, locale)}
           </button>
         ))}
       </div>
@@ -173,6 +185,7 @@ function SearchAndFilter({
   showFilters: boolean;
   onToggleFilters: () => void;
 }) {
+  const { locale } = useLocale();
   return (
     <div className="px-4 py-3">
       <div className="flex gap-2">
@@ -192,7 +205,7 @@ function SearchAndFilter({
           </svg>
           <input
             type="text"
-            placeholder="Caut&#259; preparat..."
+            placeholder={tx("search_placeholder", locale)}
             value={search}
             onChange={(e) => onSearchChange(e.target.value)}
             className="w-full rounded-lg border border-brand-border bg-brand-dark pl-9 pr-4 py-2.5 text-sm text-brand-text-primary placeholder:text-brand-text-muted focus:border-brand-gold focus:outline-none"
@@ -216,7 +229,7 @@ function SearchAndFilter({
       {showFilters && (
         <div className="mt-3 expand-enter">
           <p className="text-xs text-brand-text-muted mb-2">
-            Exclude alergeni (apas&#259; pentru a filtra):
+            {tx("exclude_allergens", locale)}
           </p>
           <div className="flex flex-wrap gap-1.5">
             {ALL_ALLERGENS.map((a) => {
@@ -232,7 +245,7 @@ function SearchAndFilter({
                   }`}
                 >
                   <span>{ALLERGEN_EMOJI[a] || ""}</span>
-                  <span>{a}</span>
+                  <span>{txAllergen(a, locale)}</span>
                   {active && <span className="ml-0.5 text-red-400">&times;</span>}
                 </button>
               );
@@ -249,78 +262,79 @@ function NutritionPanel({
 }: {
   item: MenuItem;
 }) {
+  const { locale } = useLocale();
   const nut = item.nutrition;
 
   if (!nut) {
     return (
       <p className="text-xs text-brand-text-dim italic mt-3">
-        Valori nutri&#539;ionale indisponibile pentru acest preparat.
+        {tx("nutrition_unavailable", locale)}
       </p>
     );
   }
 
   const labelText =
     item.nutrition_label === "per_portie" && item.portion
-      ? `Per por\u021Bie (${item.portion})`
+      ? `${tx("nutrition_per_portion", locale)} (${item.portion})`
       : item.nutrition_label === "per_portie"
-      ? "Per por\u021Bie"
-      : "Per 100g";
+      ? tx("nutrition_per_portion", locale)
+      : tx("nutrition_per_100g", locale);
 
   return (
     <div className="mt-3">
       <p className="text-xs font-semibold text-brand-gold-dark mb-1.5">
-        Valori Nutri&#539;ionale &mdash; {labelText}
+        {tx("nutrition_title", locale)} &mdash; {labelText}
       </p>
       <table className="w-full text-xs">
         <tbody className="divide-y divide-brand-border/40">
           <tr>
-            <td className="py-1 text-brand-text-secondary">Energie</td>
+            <td className="py-1 text-brand-text-secondary">{tx("nut_energy", locale)}</td>
             <td className="py-1 text-right text-brand-text-primary font-medium">
               {n(nut.energy_kj)} kJ / {n(nut.energy_kcal)} kcal
             </td>
           </tr>
           <tr>
-            <td className="py-1 text-brand-text-secondary">Gr&#259;simi</td>
+            <td className="py-1 text-brand-text-secondary">{tx("nut_fat", locale)}</td>
             <td className="py-1 text-right text-brand-text-primary">
               {n(nut.fat_g)} g
             </td>
           </tr>
           <tr>
             <td className="py-1 pl-4 text-brand-text-dim text-[11px]">
-              din care saturate
+              {tx("nut_saturated", locale)}
             </td>
             <td className="py-1 text-right text-brand-text-dim text-[11px]">
               {n(nut.saturated_fat_g)} g
             </td>
           </tr>
           <tr>
-            <td className="py-1 text-brand-text-secondary">Glucide</td>
+            <td className="py-1 text-brand-text-secondary">{tx("nut_carbs", locale)}</td>
             <td className="py-1 text-right text-brand-text-primary">
               {n(nut.carbohydrate_g)} g
             </td>
           </tr>
           <tr>
             <td className="py-1 pl-4 text-brand-text-dim text-[11px]">
-              din care zaharuri
+              {tx("nut_sugars", locale)}
             </td>
             <td className="py-1 text-right text-brand-text-dim text-[11px]">
               {n(nut.sugars_g)} g
             </td>
           </tr>
           <tr>
-            <td className="py-1 text-brand-text-secondary">Proteine</td>
+            <td className="py-1 text-brand-text-secondary">{tx("nut_protein", locale)}</td>
             <td className="py-1 text-right text-brand-text-primary">
               {n(nut.protein_g)} g
             </td>
           </tr>
           <tr>
-            <td className="py-1 text-brand-text-secondary">Sare</td>
+            <td className="py-1 text-brand-text-secondary">{tx("nut_salt", locale)}</td>
             <td className="py-1 text-right text-brand-text-primary">
               {n(nut.salt_g)} g
             </td>
           </tr>
           <tr>
-            <td className="py-1 text-brand-text-secondary">Fibre</td>
+            <td className="py-1 text-brand-text-secondary">{tx("nut_fiber", locale)}</td>
             <td className="py-1 text-right text-brand-text-primary">
               {n(nut.fiber_g)} g
             </td>
@@ -338,6 +352,7 @@ function AllergenBadges({
   allergens: string[];
   compact?: boolean;
 }) {
+  const { locale } = useLocale();
   if (allergens.length === 0) return null;
 
   if (compact) {
@@ -360,7 +375,7 @@ function AllergenBadges({
   return (
     <div className="mt-2">
       <p className="text-[10px] text-brand-text-dim mb-1 uppercase tracking-wider">
-        Alergeni
+        {tx("allergens", locale)}
       </p>
       <div className="flex flex-wrap gap-1">
         {allergens.map((a) => (
@@ -368,7 +383,7 @@ function AllergenBadges({
             key={a}
             className="inline-flex items-center gap-0.5 rounded-full bg-brand-burgundy-muted px-2 py-0.5 text-[10px] font-medium text-brand-burgundy-light"
           >
-            {ALLERGEN_EMOJI[a] || ""} {a}
+            {ALLERGEN_EMOJI[a] || ""} {txAllergen(a, locale)}
           </span>
         ))}
       </div>
@@ -377,7 +392,10 @@ function AllergenBadges({
 }
 
 function MenuItemCard({ item }: { item: MenuItem }) {
+  const { locale } = useLocale();
   const [expanded, setExpanded] = useState(false);
+  const description = item.description_tx?.[locale] || item.description;
+  const ingredients = item.ingredients_tx?.[locale] || item.ingredients;
 
   return (
     <div className="border-b border-brand-border/30 last:border-b-0">
@@ -394,9 +412,9 @@ function MenuItemCard({ item }: { item: MenuItem }) {
               {item.name}
             </p>
           </div>
-          {item.description && (
+          {description && (
             <p className="text-xs text-brand-text-muted mt-0.5 leading-relaxed line-clamp-2">
-              {item.description}
+              {description}
             </p>
           )}
           <div className="flex items-center gap-2 mt-1">
@@ -430,13 +448,13 @@ function MenuItemCard({ item }: { item: MenuItem }) {
       {expanded && (
         <div className="pb-4 expand-enter">
           <div className="border-t border-brand-border/20 pt-3">
-            {item.ingredients && (
+            {ingredients && (
               <div className="mb-2">
                 <p className="text-[10px] text-brand-text-dim uppercase tracking-wider mb-0.5">
-                  Ingrediente
+                  {tx("ingredients", locale)}
                 </p>
                 <p className="text-xs text-brand-text-secondary leading-relaxed">
-                  {item.ingredients}
+                  {ingredients}
                 </p>
               </div>
             )}
@@ -456,10 +474,11 @@ function ToppingSection({
   title: string;
   items: ToppingItem[];
 }) {
+  const { locale } = useLocale();
   return (
     <div className="mt-2 mb-4 px-4">
       <p className="text-[10px] uppercase tracking-widest text-brand-gold-dark mb-2 font-semibold">
-        Topping {title}
+        {tx("topping", locale)} {title}
       </p>
       <div className="space-y-1">
         {items.map((t) => (
@@ -485,6 +504,7 @@ function CategorySection({
   category: MenuCategory;
   toppings?: ToppingItem[];
 }) {
+  const { locale } = useLocale();
   return (
     <section id={`cat-${category.id}`} className="px-4 mb-2">
       <div className="flex items-center gap-3 mb-1 pt-6">
@@ -493,7 +513,7 @@ function CategorySection({
           className="text-xs font-bold uppercase tracking-[0.2em] text-brand-gold text-center"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          {category.name}
+          {txCategory(category.name, locale)}
         </h2>
         <span className="flex-1 h-px bg-brand-gold/20" />
       </div>
@@ -524,6 +544,7 @@ function DisclaimerFooter({
   disclaimer: string;
   footerNote: string;
 }) {
+  const { locale } = useLocale();
   return (
     <footer className="px-4 py-8 text-center border-t border-brand-border/30 mt-6">
       {footerNote && (
@@ -531,14 +552,14 @@ function DisclaimerFooter({
           className="text-xs text-brand-gold-dark italic mb-3"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          {footerNote}
+          {tx("footer_food_note", locale)}
         </p>
       )}
       <p className="text-[10px] text-brand-text-dim leading-relaxed mb-3">
-        &#9733; = Crea&#539;ia casei
+        {tx("house_creation_legend", locale)}
       </p>
       <p className="text-[10px] text-brand-text-dim leading-relaxed mb-3">
-        {disclaimer}
+        {tx("disclaimer_water", locale)}
       </p>
       <div className="w-12 h-px bg-brand-gold/20 mx-auto mb-3" />
       <p className="text-[10px] text-brand-text-dim">
@@ -565,6 +586,7 @@ export default function MenuClient({
   data: MenuResponse | null;
   serverError: string | null;
 }) {
+  const { locale } = useLocale();
   const [search, setSearch] = useState("");
   const [excludedAllergens, setExcludedAllergens] = useState<Set<string>>(
     new Set()
@@ -669,7 +691,7 @@ export default function MenuClient({
       {serverError && (
         <div className="px-4 py-12 text-center">
           <p className="text-sm text-red-400 mb-3">
-            Nu am putut &icirc;nc&#259;rca meniul.
+            {tx("load_error", locale)}
           </p>
           <p className="text-xs text-brand-text-muted">{serverError}</p>
         </div>
@@ -679,8 +701,8 @@ export default function MenuClient({
         <div className="px-4 py-12 text-center">
           <p className="text-sm text-brand-text-muted">
             {search || excludedAllergens.size > 0
-              ? "Niciun preparat g\u0103sit cu filtrele selectate."
-              : "Meniul nu con\u021Bine preparate."}
+              ? tx("no_results_filtered", locale)
+              : tx("no_items", locale)}
           </p>
         </div>
       )}

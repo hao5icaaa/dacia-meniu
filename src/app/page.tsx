@@ -1,16 +1,20 @@
-import Link from "next/link";
+"use client";
 
-export const metadata = {
-  title: "Meniu — Dacia Romanian Dining",
-  description:
-    "Alege între meniul de mâncare și carta de băuturi. Dacia Romanian Dining — Brașov, inspirați de Tezaurul de la Pietroasele.",
-};
+import Link from "next/link";
+import { useLocale } from "../contexts/LocaleContext";
+import { tx } from "../lib/dictionary";
+import LanguageSwitcher from "../components/LanguageSwitcher";
 
 export default function LandingPage() {
+  const { locale } = useLocale();
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-between max-w-lg mx-auto px-6 py-10">
-      {/* Header — păstrează identitatea de pe /meniu */}
-      <header className="flex flex-col items-center gap-2 pt-8">
+      <div className="w-full flex justify-end pt-2">
+        <LanguageSwitcher />
+      </div>
+
+      <header className="flex flex-col items-center gap-2 pt-4">
         <img
           src="/logo.svg"
           alt="Dacia Romanian Dining"
@@ -26,27 +30,23 @@ export default function LandingPage() {
           className="text-sm text-brand-text-muted text-center italic"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          Gourmet experience &amp; Life Style
+          {tx("tagline", locale)}
         </p>
         <div className="w-16 h-px bg-brand-gold/40 mt-4" />
       </header>
 
-      {/* Hero text — narrativ Tezaurul de la Pietroasele */}
       <section className="text-center max-w-md mt-10 mb-12">
         <p className="text-sm text-brand-text-secondary leading-relaxed mb-3">
-          Inspirați de Tezaurul de la Pietroasele, descoperit în 1837, meniul
-          nostru împletește tradiția culinară românească cu rafinamentul
-          bucătăriei moderne.
+          {tx("landing_hero", locale)}
         </p>
         <p
           className="text-xs text-brand-text-dim italic"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          Geoparcul UNESCO — Ținutul Buzăului
+          {tx("landing_subhero", locale)}
         </p>
       </section>
 
-      {/* Cele două butoane mari */}
       <nav className="flex flex-col gap-4 w-full max-w-sm">
         <Link
           href="/mancare"
@@ -56,10 +56,10 @@ export default function LandingPage() {
             className="text-2xl font-bold text-brand-gold group-hover:text-brand-gold-light tracking-wider"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            MÂNCARE
+            {tx("landing_food", locale)}
           </p>
           <p className="text-[11px] text-brand-text-muted mt-1 uppercase tracking-[0.2em]">
-            Bistro Gourmet
+            {tx("landing_food_subtitle", locale)}
           </p>
         </Link>
 
@@ -71,10 +71,10 @@ export default function LandingPage() {
             className="text-2xl font-bold text-brand-gold group-hover:text-brand-gold-light tracking-wider"
             style={{ fontFamily: "var(--font-heading)" }}
           >
-            BĂUTURĂ
+            {tx("landing_drinks", locale)}
           </p>
           <p className="text-[11px] text-brand-text-muted mt-1 uppercase tracking-[0.2em]">
-            Carte de Băuturi
+            {tx("landing_drinks_subtitle", locale)}
           </p>
         </Link>
       </nav>
